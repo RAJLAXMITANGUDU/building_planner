@@ -1,4 +1,4 @@
-// const API_URL = 'https://building-planner-pgom.onrender.com/api';
+const API_URL = 'https://building-planner-ra1g.onrender.com';
 
 export const createProject = async (name) => {
   const response = await fetch(`${API_URL}/projects`, {
